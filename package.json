@@ -20,7 +20,9 @@
     "react-dom": "^18.2.0",
     "stream-browserify": "^3.0.0",
     "react-query": "^3.39.3",
-    "svelte": "^4.2.0"
+    "svelte": "^4.2.0",
+    "@apollo/client": "^3.8.2",
+    "graphql": "^16.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
