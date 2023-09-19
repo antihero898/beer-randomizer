@@ -60,7 +60,9 @@ export const Root = () => {
           </div>
         </div>
       </div>
-      <Outlet />
+      <div style={{ top: '75px', position: 'relative'}}>
+`      <Outlet />`
+      </div>
     </>
   );
 };
