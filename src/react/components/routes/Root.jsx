@@ -60,7 +60,7 @@ export const Root = () => {
           </div>
         </div>
       </div>
-      <div style={{ top: '75px', position: 'relative'}}>
+      <div style={{ top: '65px', position: 'relative'}}>
 `      <Outlet />`
       </div>
     </>
