@@ -81,11 +81,6 @@ export const BeerTasterContainer = () => {
 
   return (
     <div className="app">
-      <div className="title-header-container">
-        <div className="title-header-label">
-          <span>Beer Taster</span>
-        </div>
-      </div>
       <div className="filter-outer-container">
         <div className="filter-container">
           <div className="filter-title-container">
@@ -93,7 +88,7 @@ export const BeerTasterContainer = () => {
               Filter Options
             </span>
           </div>
-          <div style={{margin: '25px'}}>
+          <div style={{margin: '10px'}}>
             <div>
               <span>Filter By Text (given selected filter):</span>
               <input onChange={({ target: { value } = {}} = {}) => setTextFilter(value)}></input>
