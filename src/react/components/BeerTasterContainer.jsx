@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useQuery, useMutation } from 'react-query';
-import { GET_BEERS_URL, REMOVE_BEER_URL } from '../../services/beers';
+import { GET_BEERS_URL } from '../../../services/beers';
 import '../styles.css';
 import BeerPanel from './BeerPanel';
 import LoadingSpinner from './LoadingSpinner';
@@ -151,7 +151,7 @@ export const BeerTasterContainer = () => {
           : null
       }
       {
-        isLoading || removeBeerMutation?.isLoading
+        isLoading
           ? <LoadingSpinner/>
           : null
       }

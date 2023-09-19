@@ -64,3 +64,16 @@ button:hover {
     background-color: #f9f9f9;
   }
 }
+
+.router-list {
+  transition: height 1s ease-in;
+  overflow: hidden;
+}
+
+.router-list.is-expanded {
+  height: auto;
+}
+
+.router-list.is-collapsed {
+  height: 0px;
+}
